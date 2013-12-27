@@ -14,7 +14,7 @@ namespace MockDataSample
 		static void Main(string[] args)
 		{
 			
-
+			// Create a listPersons
 			IList<Person> listPersons = DummyData.GetDataPerson(300);
 			foreach (var person in listPersons)
 			{
